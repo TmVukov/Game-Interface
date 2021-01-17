@@ -1,0 +1,27 @@
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 90%;
+    background-color: linen;   
+    place-self: center;
+}
+
+.item__image{
+    max-width: 90%; 
+    margin: auto;     
+}
+
+.add-icon{
+    font-size: 5rem;
+    color: lightgray;
+    max-width: 100%;
+    margin: auto;   
+}
+
+.itemDisplay__message{
+    font-family: 'Modak', cursive;    
+    font-size: 40px;
+    color: salmon;
+    text-align: center; 
+}

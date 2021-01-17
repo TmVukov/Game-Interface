@@ -1,0 +1,76 @@
+.modal__overlay{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+
+.modal{
+    position: fixed;
+    width: 70vw;
+    height: 70vh;    
+    background-color: mistyrose;
+    padding: 20px;
+    z-index: 3;
+    top: 15%;
+    left: 15%;
+    transform: translate((-50%,-50%));
+    border-radius: 10px;
+    box-shadow: inset 2px -3px 11px rgba(80, 92, 51, 0.8);
+}
+
+.modal__btn{
+    all: unset;
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;    
+    background-color: rosybrown;
+    color: white;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modal__content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    width: 96%;
+    height: 80%;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: ivory;    
+}
+
+
+/* Media Queries */
+
+@media(max-width: 1000px){
+    .modal{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modal__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+    }
+}
+

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+.App {   
+  height: 100vh;  
+  display: flex;
+  flex-direction:  column;
+  justify-content: space-evenly;
+  align-items: center;  
+  background: url("./background/8766.jpg");
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
