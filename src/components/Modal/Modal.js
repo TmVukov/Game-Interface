@@ -34,7 +34,7 @@ export default function Modal({modal, setModal, chars, selectedChar, selectedIte
                             selectedItem={selectedItem}
                             selectedIcon={selectedIcon}
                        />                    
-                </div>
+                </div>     
         </div>
         </>,
         document.getElementById("portal")

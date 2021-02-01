@@ -7,7 +7,7 @@
 
 .carousel{    
     width: 800px;
-    height: 350px;       
+    height: 320px;       
     display: flex; 
     justify-content:  space-evenly;   
     align-items: center;

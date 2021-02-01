@@ -1,6 +1,6 @@
-.boxes{
-    width: 1000px;
-    height: 400px;
+.boxes{    
+    width: 900px;
+    height: 350px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -11,7 +11,7 @@
 
 .boxes__message{
     font-family: 'Modak', cursive;    
-    font-size: 60px;
+    font-size: 50px;
     color: skyblue;
     margin: 0 !important;       
 }
@@ -29,7 +29,7 @@
 @media(max-width: 1330px){
     .boxes{
         width: 800px;
-        height: 350px;
+        height: 320px;
     }
 
     .boxes__message{           

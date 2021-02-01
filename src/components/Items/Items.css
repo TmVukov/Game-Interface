@@ -1,6 +1,7 @@
 .items{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
     width: 100%;
     height: 90%;
     background-color: linen;   
@@ -24,4 +25,14 @@
     font-size: 40px;
     color: salmon;
     text-align: center; 
+}
+
+
+
+/* Media Queries */
+
+@media(max-width: 1000px){
+    .items{
+        grid-gap: 0;
+    }
 }

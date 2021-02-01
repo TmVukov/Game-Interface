@@ -24,3 +24,18 @@
 .itemProps__yellow{    
     background-color: yellow;    
 }
+
+
+/* Media Queries */
+
+@media(max-width: 1400px){
+    .itemProps > *{
+        width: 210px;        
+    }   
+}
+
+@media(max-width: 1100px){
+    .itemProps > *{
+        width: 180px;        
+    }  
+}
