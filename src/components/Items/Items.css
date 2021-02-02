@@ -22,7 +22,7 @@
 
 .itemDisplay__message{
     font-family: 'Modak', cursive;    
-    font-size: 40px;
+    font-size: 35px;
     color: salmon;
     text-align: center; 
 }
@@ -34,5 +34,9 @@
 @media(max-width: 1000px){
     .items{
         grid-gap: 0;
+    }
+
+    .itemDisplay__message{
+        font-size: 30px;
     }
 }
