@@ -11,7 +11,6 @@ function App() {
   const [selectedChar, setSelectedChar] = useState(null)
   const [selectedItem, setSelectedItem] = useState(null)
   const [selectedIcon, setSelectedIcon] = useState(null)
-
   
 
   return (

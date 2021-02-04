@@ -28,13 +28,13 @@
 
 /* Media Queries */
 
-@media(max-width: 1400px){
+@media(max-width: 1600px){
     .itemProps > *{
-        width: 200px;        
+        width:  200px;        
     }   
 }
 
-@media(max-width: 1200px){
+@media(max-width: 1400px){
     .itemProps > *{
         width: 180px;        
     }  
