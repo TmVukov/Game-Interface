@@ -35,7 +35,7 @@
 
 /* Media Queries */
 
-@media(max-width: 1400px){
+@media(max-width: 1650px){
     .itemDisplay__top{
         width: 210px;
         height: 220px;
@@ -47,8 +47,20 @@
     }   
 }
 
-@media(max-width: 1000px){
-    .itemDisplay{        
+@media(max-width: 1250px){
+    .itemDisplay__top{
+        width: 180px;
+        height: 200px;
+    } 
+
+    .itemDisplay__bottom{
+        width: 180px;
+        height: 180px;
+    } 
+}
+
+@media(max-width: 1100px){
+    .itemDisplay{               
         flex-direction: row;
         justify-content: space-evenly; 
         align-items: center;
@@ -59,6 +71,15 @@
     .itemDisplay__bottom{
         width: 180px;
         height: 180px;
+        margin: 0;
+    } 
+}
+
+@media(max-width: 820px){
+    .itemDisplay__top,
+    .itemDisplay__bottom{
+        width: 150px;
+        height: 150px;
         margin: 0;
     } 
 }

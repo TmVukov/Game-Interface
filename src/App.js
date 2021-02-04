@@ -12,6 +12,8 @@ function App() {
   const [selectedItem, setSelectedItem] = useState(null)
   const [selectedIcon, setSelectedIcon] = useState(null)
 
+  
+
   return (
     <div className="App">
         <Carousel 

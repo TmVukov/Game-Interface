@@ -30,12 +30,19 @@
 
 @media(max-width: 1400px){
     .itemProps > *{
-        width: 210px;        
+        width: 200px;        
     }   
 }
 
-@media(max-width: 1100px){
+@media(max-width: 1200px){
     .itemProps > *{
         width: 180px;        
+    }  
+}
+
+@media(max-width: 820px){
+    .itemProps > *{
+        width: 160px;
+        height: 40px;        
     }  
 }
